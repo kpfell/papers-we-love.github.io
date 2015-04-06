@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Papers We Love</title>
+  <subtitle>A repository of academic computer science research papers and a community who loves reading them.</subtitle>
+  <id>http://papers-we-love.github.io/</id>
+  <link href="http://papers-we-love.github.io/"/>
+  <link href="http://papers-we-love.github.io/feed.xml" rel="self"/>
+  <updated>2015-04-05T19:00:00-05:00</updated>
+  <author>
+    <name>Papers We Love</name>
+  </author>
+  <entry>
+    <title>Neha Narula on The Scalable Commutativity Rule</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2015/video/neha-narula-scalable-commutativity-rule/"/>
+    <id>http://papers-we-love.github.io/2015/video/neha-narula-scalable-commutativity-rule/</id>
+    <published>2015-04-05T19:00:00-05:00</published>
+    <updated>2015-04-06T17:13:11-05:00</updated>
+    <author>
+      <name>Darren</name>
+    </author>
+    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/JE-jSZ8zToM" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id="new-york---april-1-2015"&gt;New York - April 1, 2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Neha Narula&lt;/strong&gt; on The Scalable Commutativity Rule&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Meetup:&lt;/strong&gt; &lt;a href="http://www.meetup.com/papers-we-love/events/221194444/"&gt;http://www.meetup.com/papers-we-love/events/221194444/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; &lt;a href="http://bit.ly/1IzyXA7"&gt;http://bit.ly/1IzyXA7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Slides:&lt;/strong&gt; &lt;a href="http://bit.ly/1GBP4y3"&gt;http://bit.ly/1GBP4y3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Audio:&lt;/strong&gt; &lt;a href="http://bit.ly/1D5Rdkw"&gt;http://bit.ly/1D5Rdkw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Moore's law is over, or at least, we won't be making programs go faster by running on faster processors, but instead by parallelizing our code to use more of them.  Reasoning about concurrent code is difficult; but it's also very hard to understand whether your design has latent scalability bottlenecks until you can actually run it on many cores.  And what if the problem is in your interface, instead of just the implementation?&lt;/p&gt;
+
+&lt;p&gt;This paper presents a simple, elegant rule:  whenever interface operations commute, they can be implemented in a way that scales.&lt;/p&gt;
+
+&lt;p&gt;The authors apply this idea to Linux, and create a new operating system by using the rule, sv6.  Their paper also comes with software, COMMUTER, which can help developers evaluate their interfaces to find opportunities for scaling.&lt;/p&gt;
+
+&lt;p&gt;This is a very powerful idea, and probably has applications in other areas like distributed systems. In this talk I'll present the paper, and speculate a bit about where else this research could be useful.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Neha Narula (@neha) is a PhD candidate at MIT building fast, scalable distributed systems. In a previous life she was a Senior Software Engineer at Google, where she designed the first version of Blobstore, a system for storing and serving petabytes of immutable data, and worked on Native Client, a system for running native code securely through the browser.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Armon Dadgar on Bloom Filters and HyperLogLog</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2015/video/armon-dadgar-on-bloom-filters-and-hyperloglog/"/>
+    <id>http://papers-we-love.github.io/2015/video/armon-dadgar-on-bloom-filters-and-hyperloglog/</id>
+    <published>2015-03-25T19:00:00-05:00</published>
+    <updated>2015-04-06T09:16:28-05:00</updated>
+    <author>
+      <name>Darren</name>
+    </author>
+    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/T3Bt9Tn6P5c" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id="san-francisco---march-26-2015"&gt;San Francisco - March 26, 2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Armon Dadgar&lt;/strong&gt; from HashiCorp takes us on a deep dive of Bloom filters and HyperLogLog.&lt;/p&gt;
+
+&lt;p&gt;Bloom filter papers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.cs.upc.edu/~diaz/p422-bloom.pdf"&gt;http://www.cs.upc.edu/~diaz/p422-bloom.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://gsd.di.uminho.pt/members/cbm/ps/dbloom.pdf"&gt;http://gsd.di.uminho.pt/members/cbm/ps/dbloom.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.eecs.harvard.edu/%7Ekirsch/pubs/bbbf/esa06.pdf"&gt;http://www.eecs.harvard.edu/%7Ekirsch/pubs/bbbf/esa06.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Armon will mostly touch on the first  paper which is the introduction of the technique. The other two are optimizations that he'll discuss briefly but there's no need to dwell on them.&lt;/p&gt;
+
+&lt;p&gt;HyperLogLog papers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9475"&gt;http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9475&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://research.google.com/pubs/pub40671.html"&gt;http://research.google.com/pubs/pub40671.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Again, the first one introduces them, and the second one is some optimizations from Google. He won’t spend much time on the second one either. All of these papers are implemented as part of:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/armon/bloomd"&gt;https://github.com/armon/bloomd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/armon/hlld"&gt;https://github.com/armon/hlld&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These links may give some context to the work and show the real-world applicability.&lt;/p&gt;
+
+&lt;p&gt;From Armon on why he loves these papers: "Bloom Filters and HyperLogLog are incredible for their simplicity and the seemingly impossible behavior they have. Both of them are part of the family of “sketching” data structures, which allow for a controllable error that results in a tremendous savings of memory compared to the equivalent exact implementations.&lt;/p&gt;
+
+&lt;p&gt;More than just being elegant, these two data structures enable some very cool real-world use cases. In the online advertising company I previously worked for, we used them to track thousands of metrics across billions of data points comfortably in memory on a single machine."&lt;/p&gt;
+
+&lt;p&gt;Armon's Bio
+Armon (@armon) has a passion for distributed systems and their application to real world problems. He is currently the CTO of HashiCorp, where he brings distributed systems into the world of DevOps tooling. He has worked on Terraform, Consul, and Serf at HashiCorp, and maintains the Statsite and Bloomd OSS projects as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://speakerdeck.com/paperswelove/pwlsf-number-13-equals-armon-dadgar-on-bloom-filters-and-hyperloglog"&gt;Download slides for Armon's talk.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="mini-talks"&gt;Mini Talks&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Matt Adereth&lt;/strong&gt; on &lt;a href="http://adereth.github.io/oneoff/Mode%20Trees.pdf"&gt;&lt;em&gt;The Mode Tree: A Tool for Visualization of Nonparametric Density Features&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;From Matt: "We often look at summaries of univariate data using basic descriptive statistics like mean and standard deviation and visualizations like histograms and box plots.  The Mode Tree is a powerful alternative visualization that reveals important details about our distributions that none of the standard approaches can show.&lt;/p&gt;
+
+&lt;p&gt;I particularly like this paper because it was really the by-product of some interesting algorithmic work in Computational Statistics.  A lot of the techniques in this area are pretty math heavy and inaccessible, so I appreciated that they dedicated a paper to making a visualization that helps explain the inner workings.  As a bonus, the visualization stands on its own as a useful tool."&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://adereth.github.io/oneoff/pwl-draft/scratch.html"&gt;Slides for Matt's talk are available.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Matt Adereth (@adereth) builds tools and infrastructure for quantitative analysis at Two Sigma.  He previously worked at Microsoft on Visio, focusing on ways to connect data to shapes.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>April Meetups</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2015/news/april-meetups/"/>
+    <id>http://papers-we-love.github.io/2015/news/april-meetups/</id>
+    <published>2015-03-24T19:00:00-05:00</published>
+    <updated>2015-04-06T09:16:28-05:00</updated>
+    <author>
+      <name>Joshua</name>
+    </author>
+    <content type="html">&lt;p&gt;We have another great line-up of meet-ups scheduled for April across a number of our chapters:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Toronto 4/1&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Toronto/events/221232820/"&gt;Max Veytsman on The First Level of Super Mario Bros.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;New York 4/1&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/221194444/"&gt;Neha Narula on The Scalable Commutativity Rule&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Addison 4/6&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Dallas/events/221461827/"&gt;Scalable Causal Consistency, and Boosting of Learning Algorithms&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;London 4/15&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-London/events/221535320/"&gt;Andy Bennett on "Scalable Atomic Visibility with RAMP Transactions"&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hamburg 4/16&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Hamburg/events/220890204/"&gt;The Essence of the Iterator pattern&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Seattle 4/16&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Seattle/events/221174354/"&gt;: Brandon Bloom on Programming with Algebraic Effects and Handlers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vienna 4/20&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Vienna/events/221356300/"&gt;Google Spanner&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Montréal 4/22&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Montreal/events/221545922/"&gt;A Deep Learning Double Bill&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;München 4/23&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Munich/events/221497485/"&gt;Neural networks and machine learning&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;San Francisco 4/30&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love-too/events/212148242/"&gt;Jordan West on Logical Time&lt;/a&gt;
+ &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to give special thanks to our Platinum sponsor &lt;a href="https://www.twosigma.com"&gt;TwoSigma&lt;/a&gt;. We would like to give additional thanks to &lt;a href="http://dev.theladders.com"&gt;The Ladders&lt;/a&gt;, &lt;a href="http://engineering.tumblr.com"&gt;tumblr&lt;/a&gt; and &lt;a href="http://dropbox.com"&gt;Dropbox&lt;/a&gt; for providing food/refreshments and facilities for the April meetup.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>John Myles White on Fundamental Concepts in Programming Languages</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2015/video/john-myles-white-on-fundamental-concepts-in-programming-languages/"/>
+    <id>http://papers-we-love.github.io/2015/video/john-myles-white-on-fundamental-concepts-in-programming-languages/</id>
+    <published>2015-03-15T19:00:00-05:00</published>
+    <updated>2015-04-06T09:16:28-05:00</updated>
+    <author>
+      <name>Darren</name>
+    </author>
+    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/cO41uoi5cZs" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id="new-york---march-16-2015"&gt;New York - March 16, 2015&lt;/h2&gt;
+
+&lt;p&gt;The New York Chapter was excited to have &lt;strong&gt;John Myles White&lt;/strong&gt; come by and speak on &lt;a href="http://www.cs.cmu.edu/~crary/819-f09/Strachey67.pdf"&gt;&lt;em&gt;Fundamental Concepts in Programming Languages&lt;/em&gt;&lt;/a&gt; by &lt;a href="http://en.wikipedia.org/wiki/Christopher_Strachey"&gt;Christopher Strachey&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Strachey's lectures on &lt;em&gt;Fundamental Concepts in Programming Languages&lt;/em&gt; provided an extremely broad survey of core issues in programming language design that provided much of the terminology we use today, including definitions of the kinds of polymorphism and the kinds of expressions we see in programming languages. Published as a paper many years later, Strachey's lectures provide an especially readable overview of programming languages concepts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/papers-we-love/papers-we-love/issues/286"&gt;Discussion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://bit.ly/1BnBb08"&gt;Slides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/redirect?q=http%3A%2F%2Fwww.cs.cmu.edu%2F~crary%2F819-f09%2FStrachey67.pdf&amp;amp;redir_token=79RfXyNJ5lRi2sGlVt0Ef05GMtd8MTQyNzI0MDY0NUAxNDI3MTU0MjQ1"&gt;Paper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.meetup.com/papers-we-love/events/220902753/"&gt;Meetup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;John Myles White (&lt;a href="http://twitter.com/johnmyleswhite"&gt;@johnmyleswhite&lt;/a&gt;) is a Julia hacker who loves thinking about the ways in which the design of technical programming languages influences the way in which we think about statistics and machine learning. He's written &lt;a href="http://www.oreilly.com/pub/au/4730"&gt;two books about machine learning&lt;/a&gt; for O'Reilly and works at Facebook.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p style="display: flex; flex-direction: row; justify-content: center; align-items: center;"&gt;
+&lt;a href="https://www.twosigma.com/"&gt;&lt;img src="/images/TwoSigma_RGB.jpg" alt="TwoSigma" title="TwoSigma - Platinum Sponsor of Papers We Love NYC" style="width: 200px; margin: 0 1em 0 0;" /&gt;&lt;/a&gt; &lt;span style="flex: 1;"&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to thank our platinum sponsor &lt;a href="http://www.twosigma.com"&gt;TwoSigma&lt;/a&gt; for helping to make this meetup possible.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Caitie McCaffrey on Orleans: Distributed Virtual Actors for Programmability and Scalability</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2015/video/caitie-mccaffrey-on-orleans-distributed-virtual-actors-for-programmability-and-scalability/"/>
+    <id>http://papers-we-love.github.io/2015/video/caitie-mccaffrey-on-orleans-distributed-virtual-actors-for-programmability-and-scalability/</id>
+    <published>2015-03-04T18:00:00-06:00</published>
+    <updated>2015-04-06T09:16:28-05:00</updated>
+    <author>
+      <name>Darren</name>
+    </author>
+    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/gY8zKZUazvo" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id="san-francisco---february-19-2015"&gt;San Francisco - February 19, 2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Caitie McCaffrey&lt;/strong&gt; stops by and talks about the &lt;a href="http://research.microsoft.com/apps/pubs/default.aspx?id=210931"&gt;&lt;em&gt;Orleans: Distributed Virtual Actors for Programmability and Scalability&lt;/em&gt;&lt;/a&gt; paper by Bernstein, Bykov, Geller, Kliot, and Thelin. &lt;a href="https://speakerdeck.com/caitiem20/papers-we-love-sf-orleans-distributed-virtual-actors-for-programmability-and-scalability"&gt;Slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Orleans is a runtime and programming model for building scalable distributed systems, based on the actor model. The Orleans programming model introduces the abstraction of Virtual Actors. Orleans allows applications to obtain high performance, reliability, and scalability. This technology was developed by the eXtreme Computing Group at Microsoft Research and was a core component of the Azure Services that supported that powered Halo 4, the award winning video game.&lt;/p&gt;
+
+&lt;p&gt;Caitie McCaffrey is a Backend Brat, Distributed Systems Diva, and Tech Lover. Her focus is on Web Services, Distributed Systems, and Big Data. She is passionate about creating fun, social, and collaborative entertainment experiences. Caitie has a degree in Computer Science from Cornell University, and has worked on several video games including Gears of War 2, Gears of War 3, and most recently Halo 4. She currently is working at HBO on the HBO Go services. She maintains a blog at &lt;a href="http://CaitieM.com"&gt;CaitieM.com&lt;/a&gt; and frequently discusses technology and entertainment on Twitter as &lt;a href="http://twitter.com/CaitieM20"&gt;@CaitieM20&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="mini-talks"&gt;Mini-talks&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Veronica Ray&lt;/strong&gt; on &lt;a href="http://www.adrienneporterfelt.com/chi-ssl-experiment.pdf"&gt;Experimenting At Scale With Google Chrome’s SSL Warning&lt;/a&gt;. From Veronica: "Whether we are surfing the web or developing applications, browser security affects us all. This study from 2014 is the first to demonstrate why real users disregard browser security warnings. Its conclusions about the impact of warning design are surprising and inspire reflection about what we as developers can do to keep our users safe."&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gareth Morgan&lt;/strong&gt; on &lt;a href="http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S08/lectures/kajiya.pdf"&gt;The Rendering Equation&lt;/a&gt;. From Gareth: "This paper is one of the most important 3D graphics papers in the subject's history. It is the foundation of many of the rendering techniques used in modern graphics. I will give a short overview of the rendering equation and why it is so important for 3D graphics. This will be a taster of my full talk on this paper which I will be giving later in the year"&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Andrew Turley on the Train Algorithm - New York City 2/23</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2015/video/andrew-turley-on-the-train-algorithm/"/>
+    <id>http://papers-we-love.github.io/2015/video/andrew-turley-on-the-train-algorithm/</id>
+    <published>2015-03-01T18:00:00-06:00</published>
+    <updated>2015-04-06T09:16:28-05:00</updated>
+    <author>
+      <name>Darren</name>
+    </author>
+    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/kpW4lCwQWHc" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Andrew Turley&lt;/strong&gt; presented &lt;a href="https://github.com/papers-we-love/papers-we-love/blob/master/garbage_collection/incremental_mature_garbage_collection_using_the_train_algorithm.pdf?raw=true"&gt;&lt;em&gt;Incremental Mature Garbage Collection Using the Train Algorithm&lt;/em&gt;&lt;/a&gt; by Jacob Seligmann &amp;amp; Steffen Grarup at the February 23, 2015 Papers We Love Meetup held at the Tumblr offices.&lt;/p&gt;
+
+&lt;p&gt;The Train Algorithm is an incremental generational garbage collector that was designed to deal with the long and unpredictable pause times caused by other algorithms. It does this by grouping objects together on "cars" in "trains". The algorithm provides a strategy for moving objects from the younger generation into different cars, moving objects from one car to another, and collecting cars and trains. It was first described by Hudson and Moss in the paper "Incremental
+Collection of Mature Objects".&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Andrew Turley&lt;/strong&gt; (&lt;a href="http://twitter.com/casio_juarez"&gt;@casio_juarez&lt;/a&gt;) is a lead software engineer on the platform team at &lt;a href="http://dev.theladders.com"&gt;TheLadders&lt;/a&gt;, where he builds infrastructure by linking Storm topologies together using RabbitMQ. He has also had numerous professional brushes with lower levels of the software stack, including building embedded systems for processing audio at DigiDesign, and helping to improve the performance of iOS at
+Apple.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p style="display: flex; flex-direction: row; justify-content: center; align-items: center;"&gt;
+&lt;a href="https://www.twosigma.com/"&gt;&lt;img src="/images/TwoSigma_RGB.jpg" alt="TwoSigma" title="TwoSigma - Platinum Sponsor of Papers We Love NYC" style="width: 200px; margin: 0 1em 0 0;" /&gt;&lt;/a&gt; &lt;span style="flex: 1;"&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to thank our platinum sponsor &lt;a href="http://www.twosigma.com"&gt;TwoSigma&lt;/a&gt; for helping to make this meetup possible.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Additional resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[mcca60] John McCarthy. Recursive functions of symbolic expressions and their computation by machine, Part I. Communications of the ACM, 3(4):184-195, April 1960.&lt;/li&gt;
+  &lt;li&gt;[bish77] Peter B. Bishop. Computer Systems with a Very Large Address Space and Garbage Collection. PhD thesis, MIT Laboratory for Computer Science, May 1977. Technical report MIT/LCS/TR-178.&lt;/li&gt;
+  &lt;li&gt;[bake78] Henry G. Baker. List processing in real-time on a serial computer. Communications of the ACM, 21(4):280-294, 1978. Also AI Laboratory Working Paper 139, 1977.&lt;/li&gt;
+  &lt;li&gt;[lieb83] Henry Lieberman and Carl E. Hewitt. A real-time garbage collector based on the lifetimes of objects. Communications of the ACM, 26(6):419-429, June 1983. Also report TM-184, Laboratory for Computer Science, MIT, Cambridge, MA, July 1980 and AI Lab Memo 569, 1981.&lt;/li&gt;
+  &lt;li&gt;[moon84] David A. Moon. Garbage collection in a large LISP system. In Steele [LFP84], 1984, pages 235-245&lt;/li&gt;
+  &lt;li&gt;[huds92] Richard L. Hudson and J. Eliot B. Moss. Incremental collection of mature objects. In Bekkers and Cohen [IWMM92], 1992, pages 388-403&lt;/li&gt;
+  &lt;li&gt;[seli95] Jacob Seligmann and Steffen Grarup. Incremental mature garbage collection using the train algorithm. In Nierstrasz [ECOOP95], 1995, pages 235-252.&lt;/li&gt;
+  &lt;li&gt;[gart05a] Alex Garthwaite. Making the Trains Run On Time. PhD thesis, University of Pennsylvania, 2005.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+</feed>
