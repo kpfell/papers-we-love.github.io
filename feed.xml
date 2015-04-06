@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://papers-we-love.github.io/2015/video/neha-narula-scalable-commutativity-rule/"/>
     <id>http://papers-we-love.github.io/2015/video/neha-narula-scalable-commutativity-rule/</id>
     <published>2015-04-05T19:00:00-05:00</published>
-    <updated>2015-04-06T17:13:11-05:00</updated>
+    <updated>2015-04-06T17:16:46-05:00</updated>
     <author>
       <name>Darren</name>
     </author>
@@ -46,6 +46,14 @@
 &lt;p&gt;&lt;strong&gt;Bio&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Neha Narula (@neha) is a PhD candidate at MIT building fast, scalable distributed systems. In a previous life she was a Senior Software Engineer at Google, where she designed the first version of Blobstore, a system for storing and serving petabytes of immutable data, and worked on Native Client, a system for running native code securely through the browser.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p style="display: flex; flex-direction: row; justify-content: center; align-items: center;"&gt;
+&lt;a href="https://www.twosigma.com/"&gt;&lt;img src="/images/TwoSigma_RGB.jpg" alt="TwoSigma" title="TwoSigma - Platinum Sponsor of Papers We Love NYC" style="width: 200px; margin: 0 1em 0 0;" /&gt;&lt;/a&gt; &lt;span style="flex: 1;"&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to thank our platinum sponsor &lt;a href="http://www.twosigma.com"&gt;TwoSigma&lt;/a&gt; for helping to make this meetup possible.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
 </content>
   </entry>
   <entry>
